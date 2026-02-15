@@ -1590,7 +1590,7 @@
   "signals": [
     {"id": "SEAT_ENG_TRQ_REQ_2", "path": "Drivetrain", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Driver torque requested #2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "dbg": false, "cmd": {"22": "F40D"}, "freq": 0.25,
   "signals": [
     {"id": "SEAT_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
