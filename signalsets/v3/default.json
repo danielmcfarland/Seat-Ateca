@@ -693,7 +693,7 @@
     {"id": "SEAT_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "SEAT_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
   ]},
-{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "100C"}, "freq": 1,
+{ "hdr": "7E0", "din": "03", "dbg": false, "cmd": {"22": "100C"}, "freq": 1,
   "signals": [
     {"id": "SEAT_PQ35_FUEL_LVL_2", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level variant", "suggestedMetric": "fuelTankLevel"}
   ]},
